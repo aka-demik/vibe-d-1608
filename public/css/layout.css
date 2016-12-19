@@ -1,0 +1,47 @@
+#container { margin: 0 0px; }
+
+#header { padding: 8px; }
+
+#header h1
+{
+	margin: 0;
+	font-size: 150%;
+}
+
+#navigation
+{
+	float: left;
+	width: 100%;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+}
+
+#content
+{
+	clear: left;
+	padding: 20px;
+}
+
+#footer
+{
+	text-align: right;
+	padding: 4px;
+	height: 1%;
+}

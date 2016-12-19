@@ -1,0 +1,5 @@
+name "vibe-test"
+dependency "vibe-d" version="~>0.7.30"
+subConfiguration "vibe-d" "win32"
+subConfiguration "vibe-d:core" "win32"
+versions "VibeDefaultMain"

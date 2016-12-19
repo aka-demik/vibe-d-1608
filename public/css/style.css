@@ -1,0 +1,94 @@
+/*
+#E9F0E1
+#B2D193
+#5F7805
+*/
+
+body { background: #E9F0E1; }
+
+a:link { color: #374503; }
+a:visited { color: #5F7805; }
+
+.hidden { display: none !important; }
+
+td.tsOff { background-color: #F9E0E0 }
+td.tsOn { background-color: #E0F9E0 }
+td.age0 { border-right: 3px solid #8AE234; }
+td.age1 { border-right: 3px solid #FCE94F; }
+td.age2 { border-right: 3px solid #FCAF3E; }
+td.age3 { border-right: 3px solid #EEE; }
+
+div#container { background: #FFF; }
+
+div#header
+{
+	color: #5F7805;
+	background-image: url('/ys_logo.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-origin: content-box;
+	background-color: #E9F0E1;
+}
+
+div#navigation { background: #5F7805; }
+
+div#navigation li a
+{
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #E9F0E1;
+}
+
+div#navigation li a:hover
+{
+	color: #5F7805;
+	background: #E9F0E1;
+}
+
+div#footer
+{
+	color: #5F7805;
+	font-size: 80%;
+	background: #B2D193;
+}
+
+div#footer a { color: #5F7805; }
+
+table.def
+{
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+td.qbox, th.qbox, div.qbox
+{
+	font-size: 12px;
+	font-weight: bolder;
+	text-align: center;
+	vertical-align: middle;
+}
+td.qbox, th.qbox {
+	width:1%;
+	border-right: 1px solid #DDD;
+	padding: 2px !important;
+}
+div.qbox
+{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin: 1px 4px;
+}
+div.qbox.off,  td.qbox.off  { color: #C42612; }
+div.qbox.err,  td.qbox.err  { background: #C42612; color: #FFF; }
+div.qbox.wrn,  td.qbox.wrn  { background: #DED991; color: #FFF; }
+div.qbox.good, td.qbox.good { background: #B2D193; color: #FFF; }
+div.qbox.impossible, td.qbox.impossible { background: #F0F; color: #FFF; }
+table.def td.wrn { background: #DED991; }
+table.def td.err { background: #C42612; color: #FFF; }
+progress.err::-webkit-progress-value { background: #C42612; }
+progress.err::-moz-progress-bar { background: #C42612; }
+progress.err { color: #C42612; }
+progress.wrn::-webkit-progress-value { background: #DED991; }
+progress.wrn::-moz-progress-bar { background: #DED991; }
+progress.wrn { color: #DED991; }
